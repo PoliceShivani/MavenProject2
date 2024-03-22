@@ -31,7 +31,7 @@ public void clicklogin() {
 public void location() {
 	WebElement location_dropdown = driver.findElement(By.id("location"));
 	Select loc_dropdown = new Select(location_dropdown);
-	loc_dropdown.selectByVisibleText("London");
+	loc_dropdown.selectByVisibleText("Sydney");
 }
 
 
